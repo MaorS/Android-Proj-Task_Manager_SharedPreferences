@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="not_a_member_sign_up_now">Not a member? Sign up now.</string>
+    <string name="already_registered_login_here">Already registered? login here.</string>
+    <string name="pass_hint"><![CDATA[Password must contains Minimum 5 chars \nAt least one upper, lower case & digit \nMax 16 chars ]]></string>
+    <string name="new_task">Write New Task</string>
+    <string name="log_out">Log Out</string>
+    <string name="welcome_user">Welcome user</string>
+    <string name="txt_no_task">You Don\'t have any Task</string>
+    <string name="uncomplete_task">" Tasks not Completed yet .\nAre you sure you want to delete all tasks?"</string>
+    <string name="delete_all">Delete All</string>
+    <string name="done_tasks">Done Tasks</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="invalid_validation">Invalid Email OR Password</string>
+    <string name="already_exist">user already registered</string>
+    <string name="empty_task">Task Cannot be empty</string>
+    <string name="hi">Hi</string>
+    <string name="you_have">You Have </string>
+    <string name="tasks"> Tasks</string>
+    <string name="delete_tasks">Delete Tasks</string>
+    <string name="task_exist">Task Already exist..</string>
+    <string name="delete_all_tasks">Delete All Tasks</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_task">Edit Your Task</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="user_or_pass_wrong">User or pass wrong</string>
+    <string name="user_not_exist">User is not exist</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.maor.taskmanagerproject.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_con"
+        android:focusableInTouchMode="true"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_newTask"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/new_task"
+            android:inputType="textCapSentences"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <ImageButton
+            android:id="@+id/btnAddNewTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_icon"
+            android:onClick="onClickAddNewTask"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/myList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOn="@string/done_tasks"
+            android:textOff="@string/all_tasks"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_all"
+            android:onClick="onClickDelete"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_task_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+</LinearLayout>

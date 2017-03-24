@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/connectedAs" android:title="@string/welcome_user" android:enabled="false" />
+    <item android:id="@+id/logoutBtn" android:title="@string/log_out"/>
+</menu>

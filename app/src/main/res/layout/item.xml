@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5sp">
+
+    <TextView
+        android:id="@+id/taskNum"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="17sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/taskTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:textSize="25sp"
+
+        />
+</LinearLayout>
